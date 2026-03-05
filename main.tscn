@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cpq4mlg28kteq"]
+
+[ext_resource type="PackedScene" uid="uid://duyouf55rajvj" path="res://character_body_2d.tscn" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://07xsvqsbtydl" path="res://nail.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://d1spcuxs20q2i" path="res://land.tscn" id="3_h2yge"]
+
+[node name="Main" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_ig7tw")]
+position = Vector2(298, 222)
+jump_force = -400
+
+[node name="Nail 2" parent="." instance=ExtResource("2_0xm2m")]
+position = Vector2(186, 105)
+scale = Vector2(1.5, 1.5)
+
+[node name="Nail 3" parent="." instance=ExtResource("2_0xm2m")]
+position = Vector2(497, 152)
+scale = Vector2(1.5, 1.5)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("3_h2yge")]
+position = Vector2(307, 346)
+scale = Vector2(4, 1.5)
