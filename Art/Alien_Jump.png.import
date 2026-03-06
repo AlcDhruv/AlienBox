@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://3pu72kaoltcb"
-path="res://.godot/imported/Alien_Stand_2.png-e64b5a0c30343af3737935b1c209296c.ctex"
+uid="uid://catlwoyusvmnc"
+path="res://.godot/imported/Alien_Jump.png-a927d4e87e0af70245088fbf0658d552.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Alien_Stand_2.png"
-dest_files=["res://.godot/imported/Alien_Stand_2.png-e64b5a0c30343af3737935b1c209296c.ctex"]
+source_file="res://Art/Alien_Jump.png"
+dest_files=["res://.godot/imported/Alien_Jump.png-a927d4e87e0af70245088fbf0658d552.ctex"]
 
 [params]
 

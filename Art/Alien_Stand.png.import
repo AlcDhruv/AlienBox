@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cysyx0liyylh2"
-path="res://.godot/imported/land.png-1ac97c03a4fcee1ef72f550e5167d6db.ctex"
+uid="uid://cnh2fb78ye3kl"
+path="res://.godot/imported/Alien_Stand.png-ba1ee97665e57de0dc36a103eac031bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://land.png"
-dest_files=["res://.godot/imported/land.png-1ac97c03a4fcee1ef72f550e5167d6db.ctex"]
+source_file="res://Art/Alien_Stand.png"
+dest_files=["res://.godot/imported/Alien_Stand.png-ba1ee97665e57de0dc36a103eac031bf.ctex"]
 
 [params]
 

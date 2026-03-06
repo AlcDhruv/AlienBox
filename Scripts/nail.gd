@@ -2,12 +2,13 @@ extends Node2D
 
 var dragging = false
 var offset = Vector2.ZERO
+var can_be_moved = false
 
 func _ready():
 	$Area2D.input_pickable = true
 
 func _process(delta):
-	if dragging:
+	if dragging and can_be_moved:
 		global_position = get_global_mouse_position() + offset
 
 
