@@ -1,11 +1,15 @@
-[gd_scene load_steps=5 format=3 uid="uid://cpq4mlg28kteq"]
+[gd_scene load_steps=8 format=3 uid="uid://cpq4mlg28kteq"]
 
+[ext_resource type="Script" uid="uid://dw6oywgo7e06c" path="res://Scenes/main.gd" id="1_21xkr"]
 [ext_resource type="PackedScene" uid="uid://duyouf55rajvj" path="res://Scenes/character_body_2d.tscn" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://co355q1c7xm5t" path="res://Art/tempBack.jpg" id="1_jjvhh"]
 [ext_resource type="PackedScene" uid="uid://07xsvqsbtydl" path="res://Scenes/nail.tscn" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://d1spcuxs20q2i" path="res://Scenes/land.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://ci6duf8iscssy" path="res://Scenes/milk.tscn" id="5_kry3j"]
+[ext_resource type="PackedScene" uid="uid://dkpailb8sj75b" path="res://Scenes/overworld.tscn" id="7_6bp64"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_21xkr")
 
 [node name="Background" type="Sprite2D" parent="."]
 position = Vector2(309, 288)
@@ -27,3 +31,16 @@ scale = Vector2(1.5, 1.5)
 [node name="StaticBody2D" parent="." instance=ExtResource("3_h2yge")]
 position = Vector2(317, 471)
 scale = Vector2(3, 2)
+
+[node name="Milk" parent="." instance=ExtResource("5_kry3j")]
+position = Vector2(542, 185)
+
+[node name="Milk2" parent="." instance=ExtResource("5_kry3j")]
+position = Vector2(154, 54)
+
+[node name="Milk3" parent="." instance=ExtResource("5_kry3j")]
+position = Vector2(36, 321)
+
+[node name="Overworld" parent="." instance=ExtResource("7_6bp64")]
+visible = false
+position = Vector2(313, 244)

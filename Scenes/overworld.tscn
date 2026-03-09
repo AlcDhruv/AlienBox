@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkpailb8sj75b"]
+
+[ext_resource type="Texture2D" uid="uid://bmscgqq3oaocw" path="res://Art/background.png" id="1_l45s6"]
+
+[node name="Overworld" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_l45s6")
