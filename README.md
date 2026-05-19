@@ -30,3 +30,9 @@ Also because making weird mechanics is fun.
 
 Work in progress 🚧
 Things will change. A lot.
+
+## Screenshots
+
+![Screenshot 1](screenshots/gameplay_1.png)
+
+![Screenshot 2](screenshots/gameplay_2.png)

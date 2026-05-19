@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="AlienBox"
-run/main_scene="uid://cpq4mlg28kteq"
+run/main_scene="uid://bnv0uoo2ld0sc"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 

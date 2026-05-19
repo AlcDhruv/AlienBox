@@ -5,7 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ypqmy"]
 size = Vector2(114, 54.5)
 
-[node name="StaticBody2D" type="StaticBody2D"]
+[node name="Land" type="StaticBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(2, 2)
@@ -15,3 +15,4 @@ texture = ExtResource("1_yjt17")
 position = Vector2(0, -2.5)
 scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_ypqmy")
+one_way_collision = true
